@@ -1,3 +1,9 @@
+body
+{
+	margin : 0px;
+s there a margin between top and nav blue box}
+
+
 nav
 {
 	display:flex;
@@ -8,11 +14,25 @@ nav
 	flex-wrap: wrap;
 	justify-content:flex-end;
 }
-
+nav > span
+{
+	margin: 10px;
+	margin-right: auto;
+	padding: 20px;
+	font-size:20px;
+	font-weight: bold;
+}
 nav > a
 {
-	background-color:white;
+	background-color:DodgerBlue;
 	margin : 10px;
 	padding : 20px;
 	font-size:20px;
+	font-weight:bold;
+	
+}
+
+nav > a:hover
+{
+	background-color:white;
 }
